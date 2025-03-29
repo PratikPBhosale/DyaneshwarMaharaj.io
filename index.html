@@ -1170,14 +1170,19 @@
 
     </footer>
     <!-- Language Selection Popup -->
-    <div id="language-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 9999; justify-content: center; align-items: center;">
-      <div style="background: #fff; padding: 20px; border-radius: 10px; text-align: center; width: 300px;">
-        <h3>Select Your Language</h3>
-        <button class="language-btn" data-lang="english" style="margin: 10px; padding: 10px 20px;">English</button>
-        <button class="language-btn" data-lang="hindi" style="margin: 10px; padding: 10px 20px;">हिंदी</button>
-        <button class="language-btn" data-lang="marathi" style="margin: 10px; padding: 10px 20px;">मराठी</button>
+    <div id="language-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 9999; display: flex; justify-content: center; align-items: center;">
+      <div style="background: #ffffff; padding: 30px; border-radius: 15px; text-align: center; width: 350px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <h3 style="font-size: 24px; color: #333; margin-bottom: 20px;">Select Your Language</h3>
+        <button class="language-btn" data-lang="english" style="margin: 10px; padding: 12px 25px; font-size: 16px; background: #07847f; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s;">English</button>
+        <button class="language-btn" data-lang="hindi" style="margin: 10px; padding: 12px 25px; font-size: 16px; background: #07847f; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s;">हिंदी</button>
+        <button class="language-btn" data-lang="marathi" style="margin: 10px; padding: 12px 25px; font-size: 16px; background: #07847f; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s;">मराठी</button>
       </div>
     </div>
+    <style>
+      .language-btn:hover {
+        background: #065d5a;
+      }
+    </style>
     <!-- JS here -->
     <script src="js/jquery.js"></script>
     <script src="js/waypoints.js"></script>
